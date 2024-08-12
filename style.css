@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    min-height: 100vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.header, .footer, .content1, .content2> div > div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #000;
+
+}
+
+.main-container{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-size: cover;
+    background-position: center;
+
+    
+}
+
+.content2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: warp;
+    gap: 15px;
+    background-image: url(''); 
+}
+
+.content2 > div {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-size: cover;
+    background-position: center;
+
+}
+.header{
+    min-height: 90px;
+    background-image: url('./photo/opzz.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+.content1{
+    flex: 100%;
+    background-image: url('./photo/pboom.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+ .a{
+    background-image: url('./photo/pzeed.png'); 
+    background-size: cover;
+    background-position: center;
+ }
+
+ .b{
+    background-image: url('./photo/pzeed.png'); 
+    background-size: cover;
+    background-position: center;
+ }
+
+ .c{
+    background-image: url('./photo/pzeed.png'); 
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ .d{
+    background-image: url('./photo/pzeed.png'); 
+    background-size: cover;
+    background-position: center;
+ }
+
+
+
+
+
+
+@media screen and (max-width: 800px) { 
+    .main-container{
+        min-height: 400px;
+    }
+    
+    .content1{
+        flex: 100%;
+        background-image: url('./photo/pboom.jpg'); 
+        background-size: cover;
+        background-position: center;
+    }
+     
+    .header{
+        min-height: 90px;
+        background-image: url('./photo/opzz.jpg'); 
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footer{
+        min-height: 110px;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    .content2 > div {
+        flex-direction: column;
+    }
+    .content2 > div > div {
+        min-height: 200px;
+    }
+    
+    .header{
+        min-height: 90px;
+        background-image: url('./photo/opzz.jpg'); 
+        background-size: cover;
+        background-position: center;
+    }
+
+    .content1{
+        flex: 100%;
+        background-image: url('./photo/pboom.jpg'); 
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .a{
+        background-image: url('./photo/pzeed.png'); 
+        background-size: cover;
+        background-position: center;
+     }
+    
+     .b{
+        background-image: url('./photo/pzeed.png'); 
+        background-size: cover;
+        background-position: center;
+     }
+    
+     .c{
+        background-image: url('./photo/pzeed.png'); 
+        background-size: cover;
+        background-position: center;
+     }
+     
+     .d{
+        background-image: url('./photo/pzeed.png'); 
+        background-size: cover;
+        background-position: center;
+     }
+
+     
+}
